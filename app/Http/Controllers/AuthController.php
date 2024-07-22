@@ -14,7 +14,7 @@ class AuthController extends Controller
     /**
      * Register a new user
      */
-    public function register(Request $request)
+    public function store(Request $request)
     {
         $v = Validator::make($request->all(), [
             'login' => 'required|min:3',
