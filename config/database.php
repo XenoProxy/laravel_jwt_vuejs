@@ -75,7 +75,7 @@ return [
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',            
             'prefix_indexes' => true,
-            // 'search_path' => 'public',
+            // 'search_path' => 'granit',
             'schema' => 'granit',
             'sslmode' => 'prefer',
         ],
